@@ -38,7 +38,7 @@ const Contact = () => {
     
     className='text-center p-6 py-20 lg:px-32 w-full overflow-hidden' id='Contact'>
       <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Contact
-         <span className='underline underline-offset-4 pd-2 decoration-1 under font-light'>With Us</span></h1>
+         <span className='underline underline-offset-4 gap-2 decoration-1 under font-light'>With Us</span></h1>
       <p className='text-gray-500 max-w-80 text-center mb-8 mx-auto'>Ready to make a Move? Let's Build your future Together</p>
       <form  onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-8'>
         <div className='flex flex-wrap'>
